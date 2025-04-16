@@ -1,0 +1,25 @@
+What are the problems has been fixed by docker ?
+ - Problem 1 : 
+		Why you should install dependencies in every environment we want to run the app ?
+
+-------------------------------------------------------------------------------------------------------
+
+ - Problem 2 : 	
+		How to run different services in the same host independently ?!
+
+-------------------------------------------------------------------------------------------------------
+
+ - Problem 3 : 
+		How to use different versions of your dependencies in your host and test it ?!
+
+-------------------------------------------------------------------------------------------------------
+
+ - Problem 4 : 
+		How to deploy your service automatically in a new host regardless of env ?!
+
+-------------------------------------------------------------------------------------------------------
+
+ - Problem 5 :
+		How to manage performance and scale of your services effectively ?!
+
+-------------------------------------------------------------------------------------------------------

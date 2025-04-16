@@ -1,0 +1,7 @@
+What Is Docker ?
+    -- Docker is one of tools that used the idea of the isolated resources to create a set of tools that allows applications to be package with all the dependencies installed and ran wherever wanted
+
+    -- Docker is a software platform for building applications based on containers small and lightweight execution environments that make shared use of the operating system kernel but otherwise run in isolation from one another.
+
+What Is Container ?
+    -- Container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another
