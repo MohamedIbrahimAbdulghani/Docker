@@ -3,5 +3,46 @@ What Is Docker ?
 
     -- Docker is a software platform for building applications based on containers small and lightweight execution environments that make shared use of the operating system kernel but otherwise run in isolation from one another.
 
+-------------------------------------------------------------------------------------------------------
+
 What Is Container ?
     -- Container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another
+
+-------------------------------------------------------------------------------------------------------
+
+What is different between Container VS Virtual Machine ?
+
+    -->  Containers :- 
+                        1 - They don't need to have a full-blown os inside
+                        2 - Share the same system resources
+                        3 - They are pretty lightweight and efficient
+                        4 - Allows efficient use of resources
+
+
+    -->  Virtual Machine :- 
+                        1 - They need to have a full-blown os inside
+                        2 - Hardware-level virtualization
+                        3 - They are Heavyweight and less efficient
+                        4 - Allows Limited performance of resources
+
+-------------------------------------------------------------------------------------------------------
+
+What Is Image ?
+    -- Image is an immutable file that contains the source code, libraries, dependencies, tools, and other files needed for an application to run .
+
+    -- Its a snapshot or a template of your resources, and in common the containers is an image in the runtime.
+
+-------------------------------------------------------------------------------------------------------
+
+*-*  (( Container About Image In RunTime))   *-* 
+
+-------------------------------------------------------------------------------------------------------
+
+What Is Docker File ?
+    -- DockerFile is configuration file for your container
+    ->  Container دي شوية اوامر تانيه بتشتغل وبتتحول الي  Images ال  Images فيها  configurations جواه شوية Docker File ال 
+
+-------------------------------------------------------------------------------------------------------
+
+What Is Docker Hub ?
+    -- It is a service provided by Docker for finding and sharing container images with your team .
