@@ -46,3 +46,15 @@ What Is Docker File ?
 
 What Is Docker Hub ?
     -- It is a service provided by Docker for finding and sharing container images with your team .
+
+
+/*****************************    Docker Composer    *****************************/
+
+    - Definition:
+        Composer is a tool for defining and running multi-container Docker applications.
+    
+    - Configuration:
+        YAML file to configure your application's service.
+
+    - Feature:
+        One of the best feature is only recreate containers that have changed.
