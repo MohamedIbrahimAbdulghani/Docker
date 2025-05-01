@@ -1,0 +1,11 @@
+1 - ( docker ) --> to get all commands you will use it when you used Docker
+
+2 - ( docker pull image_name ) --> to install image 
+
+3 - ( docker images ) --> to show all images in your system or to show all images that you have installed
+
+4 - ( docker run -it image_name ) --> to enter inside the container
+
+*_*  you make copy from image in run time, in this case the image change form image to container  *_*
+
+5 - (  ) -->
