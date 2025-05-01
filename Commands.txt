@@ -8,4 +8,29 @@
 
 *_*  you make copy from image in run time, in this case the image change form image to container  *_*
 
-5 - (  ) -->
+5 - ( apt-get install ) --> to install apt
+
+6 - ( apt-get update ) --> to update version  update {{ container }}
+
+7 - ( exit ) --> to exit from container
+
+8  ( docker ps ) --> to check if there is any running container or not, and if there is, to get information about it
+
+
+
+لو انت شغال علي اصدار معين وعايز ترن مشروع او الملف علي اصدار مختلف عن الاصدار اللي عندك من غير ماتغير الاصدار كامل 
+
+{
+
+        *_***************************     if you work in powershell    ***************************_*
+
+        docker run -it --rm --name phptest -v "${PWD}:/usr/src/myapp" -w /usr/src/myapp php:7.4-cli php index.php
+
+
+        *_***************************     if you work in CMD    ***************************_*
+
+        docker run -it --rm --name phptest -v "%cd%":/usr/src/myapp -w /usr/src/myapp php:7.4-cli php index.php
+
+}
+
+
