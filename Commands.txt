@@ -16,6 +16,9 @@
 
 8  ( docker ps ) --> to check if there is any running container or not, and if there is, to get information about it
 
+9 - ( docker stop first_four_number_from_id_docker ) --> to stop container - docker image 
+
+10 - ( docker exec -it aa0f  /bin/bash ) --> to run nginx container
 
 
 لو انت شغال علي اصدار معين وعايز ترن مشروع او الملف علي اصدار مختلف عن الاصدار اللي عندك من غير ماتغير الاصدار كامل 
