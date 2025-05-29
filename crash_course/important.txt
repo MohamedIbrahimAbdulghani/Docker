@@ -1,2 +1,54 @@
-Searching Images :
+1- Searching Images :
                     Use the { docker search } command to find images on Docker Hub.
+                    ( $docker search nginx )
+
+2- Pulling Images :
+                    To use an image locally, it must be pulled from a register using the { docker pull } command .
+                    ( $docker pull nginx )
+
+3- Listing Images :
+                    Use { docker images } to see all images currently stored on the local system .
+                    ( $docker images )
+
+4- Removing Images :
+                    To remove unused images, use { docker rmi } followed by the image ID or name .
+                    ( $docker rmi nginx )
+
+5- Tagging Images :
+                    Tags help organize and version images. Use { docker tag } to apply a specific tag to an image .
+                    ( $docker tag nginx my-nginx:1.0 )
+
+6- DockerFile : 
+                DockerFile is a script containing a series of instructions on how to build a Docker image .
+
+                {
+                    FROM: specifies the base image .
+                    RUN: Executes a command in the image while building .
+                    COPY/ADD: Adds files from the host system into the container image .
+                    EXPOSE: Define the port that the container will expose .
+                }
+
+                For Example => (
+                                FROM nginx:latest
+                                COPY index.html /usr/share/nginx/html
+                )
+
+7- Building an Image : 
+                To build an image from a DockerFile, use { docker build } and specify the DockerFile's location
+                ( $docker build -t my-nginx:v1 )
+
+8- Creating Containers from Images :
+                The { docker run } command is used to create and start a new container from an existing image .
+                ( $docker run -d -p 80:80 nginx )
+
+9- Stopping a Running Container : 
+                Use { docker stop } to halt a running container .
+                ( $docker stop <container_id> )
+
+10- Starting a Stopped Container : 
+                Use { docker start } followed by the container ID or name to start a container that has been stopped .
+                ( $docker start <container_id> )
+
+10- Restarting a Container : 
+                Use { docker restart } to stop and then start a container in one command .
+                ( $docker restart <container_id> )
