@@ -41,6 +41,9 @@
                 The { docker run } command is used to create and start a new container from an existing image .
                 ( $docker run -d -p 80:80 nginx )
 
+                if you want to create and start a new container from an existing image .
+                ( $docker run -d -p 80:80 --name yourContainerImageName nginx)
+
 9- Stopping a Running Container : 
                 Use { docker stop } to halt a running container .
                 ( $docker stop <container_id> )
