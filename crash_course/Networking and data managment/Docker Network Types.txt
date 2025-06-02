@@ -1,0 +1,10 @@
+1- Bridge Network 
+                The default network type for Docker containers, allowing containers to communication with each other on the same host .
+                host انهم يتواصلوا مع بعض وهما علي نفس ال  containers بتسمح لل 
+
+2- Host Network 
+                Bypasses Docker's network isolation, using the host's networking stack directly
+
+3- Overlay Network
+                Enables communication between containers across multiple Docker hosts, typically used in swarm mode .
+                المختلفة انها تتواصل مع بعض hosts اللي علي ال  containers بتسمح لل 
