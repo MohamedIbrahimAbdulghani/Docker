@@ -57,7 +57,7 @@
                 ( $docker restart <container_id> )
 
 11- Oview about Containers :
-                Use { docker ps } provides a list of the Docker Containers on your machine .
+                Use { docker ps } provides a list of the Docker Containers on your machine or i used this command to know information about my containers .
                 ( $docker ps )
 
 12- Use { docker ps -a } use it when you want know all images you used it 
@@ -66,8 +66,10 @@
                 You can use { docker attach } to interact with a running container's process. and you can use { docker exec } to Execute a command in a running container
                 (
                     $docker attach <container_id>
-                    $docker exec -it myContainer /bin/bash
+                    $docker exec -it myContainer /bin/bash  -> use this command when you want to make a new terminal from the container
+                    exit  -> use this when you want finish or destroy the new terminal and return the Container Image 
                 )
 
 14- Removing Containers : 
                 To remove a stopped container, use docker rm, followed by multiple container IDs to delete several containers at once .
+                Use this { docker rm <container_id> } to remove container 
